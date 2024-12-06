@@ -7,10 +7,3 @@ var createCounter = function(n) {
         return n++;
     };
 };
-
-const counter = createCounter(1);
-console.log(counter());
-console.log(counter());
-console.log(counter());
-console.log(counter());
-console.log(counter());

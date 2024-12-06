@@ -16,8 +16,3 @@ var createCounter = function(init) {
         }
     }
 };
-
-const counterII = createCounter(5);
-console.log(counterII.increment())
-console.log(counterII.reset())
-console.log(counterII.decrement())
